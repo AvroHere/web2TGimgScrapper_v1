@@ -22,16 +22,16 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Bot configuration
-TOKEN = "8142872572:AAGc5bMXlHuJW71VeSwWWRW2TKhg9a7nNDs"
+TOKEN = "Token Here"
 MAX_IMAGES_PER_MESSAGE = 10  # Reduced from 20 to avoid rate limits
 MAX_WORKERS = 10
 TEMPORARY_FOLDER = "temp_images"
 DELAY_BETWEEN_LINKS = 15
 
 # Admin and group IDs
-ADMIN_ID = 8139996030
-GROUP_ID = -1002602630495
-TARGET_GROUP = -1002602630495  # Using group ID instead of username for reliability
+ADMIN_ID = Admin ID Here
+GROUP_ID = Group ID Here
+TARGET_GROUP = Group ID Here  # Using group ID instead of username for reliability
 
 os.makedirs(TEMPORARY_FOLDER, exist_ok=True)
 
